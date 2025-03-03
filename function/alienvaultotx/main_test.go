@@ -87,7 +87,7 @@ func setup(t *testing.T) {
 }
 
 func TestHandlerNonMatchNonIgnore(t *testing.T) {
-	setup()
+	setup(t)
 
 	TestAlert.Subjects = []squyre.Subject{
 		{
